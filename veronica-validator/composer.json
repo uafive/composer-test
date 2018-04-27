@@ -1,0 +1,29 @@
+{
+    "name": "veronica/validator",
+    "type": "library",
+    "description": "fsdfds",
+    "keywords": ["veronica", "validator"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Spike",
+            "homepage": "http://spike.com.ua"
+        }
+    ],
+    "require": {
+        "php": "^5.6 || ^7.0"
+    },
+    "autoload": {
+        "psr-4": { "Github\\": "lib/Github/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "Github\\Tests\\": "test/Github/Tests/"}
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.9.x-dev"
+        }
+    }
+}
